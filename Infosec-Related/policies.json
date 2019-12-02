@@ -1,0 +1,1712 @@
+[
+    {
+        "dest":  "5ballov.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "abv.bg",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1"
+    },
+    {
+        "dest":  "adresik.net",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "aeterna.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "aol.co.uk",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "aol.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "aol.de",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "aol.fr",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "aon.at",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "arcor.de",
+        "policy":  "encrypt",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "asia.com",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "autorambler.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1"
+    },
+    {
+        "dest":  "azet.sk",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "bbox.fr",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "bigmir.net",
+        "policy":  "encrypt",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1"
+    },
+    {
+        "dest":  "bigpond.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "bk.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "bluewin.ch",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1"
+    },
+    {
+        "dest":  "blueyonder.co.uk",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "borda.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "btinternet.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "centrum.sk",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "citromail.hu",
+        "policy":  "encrypt",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "comcast.net",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "contracted.pmi.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "cox.net",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "dalekseev.pp.ua",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "disroot.org",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "dr.com",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "earthlink.net",
+        "policy":  "encrypt",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1"
+    },
+    {
+        "dest":  "eff.org",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "email.com",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1"
+    },
+    {
+        "dest":  "email.cz",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "email.it",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1"
+    },
+    {
+        "dest":  "email.ua",
+        "policy":  "encrypt",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "europe.com",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "facebook.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "fotoplenka.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "freenet.de",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "fromru.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "front.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "gmail.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "gmx.at",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "gmx.ch",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "gmx.com",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "gmx.de",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "gmx.net",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "gmx.us",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "google.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "googlemail.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hot.ee",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotbox.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.be",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.ca",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.cl",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.co.id",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.co.il",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.co.in",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.co.jp",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.co.kr",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.co.th",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.co.uk",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.co.za",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.com.ar",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.com.au",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.com.br",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.com.hk",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.com.tr",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.com.tw",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.com.vn",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.cz",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.de",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.dk",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.es",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.fi",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.fr",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.gr",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.hu",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.it",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.lt",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.lv",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.my",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.nl",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.no",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.ph",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.rs",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.se",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.sg",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hotmail.sk",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hub.pl",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "hushmail.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "i.ua",
+        "policy":  "encrypt",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "ig.com.br",
+        "policy":  "encrypt",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "iname.com",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "inbox.eu",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1"
+    },
+    {
+        "dest":  "inbox.lt",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1"
+    },
+    {
+        "dest":  "inbox.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "intellias.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "interia.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "interia.eu",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "interia.pl",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "interiowy.pl",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "intmail.pl",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "inwind.it",
+        "policy":  "encrypt",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "isobar.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1"
+    },
+    {
+        "dest":  "kabelmail.de",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1"
+    },
+    {
+        "dest":  "keemail.me",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "krovatka.su",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "land.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "laposte.net",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "lenta.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1"
+    },
+    {
+        "dest":  "libero.it",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "list.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.at",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.be",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.ca",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.cl",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.cn",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.co.kr",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.co.uk",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.co.za",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.com.ar",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.com.au",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.com.mx",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.com.my",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.com.ph",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.com.pt",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.com.sg",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.de",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.dk",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.fi",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.fr",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.hk",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.ie",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.in",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.it",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.jp",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.nl",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.no",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "live.se",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "livemail.tw",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "mail-tester.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "mail.bg",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "mail.com",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1"
+    },
+    {
+        "dest":  "mail.de",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "mail.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "mail.ua",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "mail15.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "mail333.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "mailfence.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "me.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "memori.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "msn.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "my.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "myrambler.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1"
+    },
+    {
+        "dest":  "myself.com",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "naver.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "net.hr",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "neur.fr",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "newmail.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "nightmail.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "nivac.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "nm.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "ntlworld.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "o2.pl",
+        "policy":  "encrypt",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "ogarnji.se",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "onet.eu",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "online.de",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1"
+    },
+    {
+        "dest":  "online.ee",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "online.no",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "op.pl",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1"
+    },
+    {
+        "dest":  "optusnet.com.au",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1"
+    },
+    {
+        "dest":  "outlook.at",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.be",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.cl",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.co.id",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.co.il",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.co.th",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.com.ar",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.com.au",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.com.br",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.com.gr",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.com.tr",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.com.vn",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.cz",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.de",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.dk",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.es",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.fr",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.hu",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.ie",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.in",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.it",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.jp",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.kr",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.lv",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.my",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.ph",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.pt",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.sa",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.sg",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "outlook.sk",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "pacz.to",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "photofile.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "pisem.net",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "pisz.to",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "pm.me",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "pmi.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "pochta.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "pochta.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "pochtamt.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "poczta.fm",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "poczta.onet.pl",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "pop3.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "post.com",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "post.cz",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "protonmail.ch",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "protonmail.com",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "qip.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "qmail.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "qq.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "rambler.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1"
+    },
+    {
+        "dest":  "rambler.ua",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1"
+    },
+    {
+        "dest":  "rbcmail.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "ro.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1"
+    },
+    {
+        "dest":  "rocketmail.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "rogers.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "salesforce.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "seznam.cz",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "sfr.fr",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "shaw.ca",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "sky.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "smtp.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "spoko.pl",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "sqooba.io",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "strato.de",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "suddenlink.net",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "talktalk.net",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "telenet.be",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "telia.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "telus.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "telus.net",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "temp-mail.org",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "test.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "tiscali.co.uk",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "tlen.pl",
+        "policy":  "encrypt",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "tut.by",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "tuta.io",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "tutamail.com",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "tutanota.com",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "tutanota.de",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "ua.fm",
+        "policy":  "encrypt",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "ukr.net",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "usa.com",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1"
+    },
+    {
+        "dest":  "verizon.net",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "virgilio.it",
+        "policy":  "encrypt",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "virginmedia.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "walla.co.il",
+        "policy":  "encrypt",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "web.de",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "webmail.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "windowslive.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "wp.pl",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "writeme.com",
+        "policy":  "dane-only",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "xaker.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "y7mail.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "ya.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.at",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.be",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.bg",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.ca",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.cl",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.co.hu",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.co.id",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.co.il",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.co.in",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.co.kr",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.co.nz",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.co.th",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.co.uk",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.co.za",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.com.ar",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.com.au",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.com.br",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.com.co",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.com.hk",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.com.hr",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.com.mx",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.com.my",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.com.pe",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.com.ph",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.com.sg",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.com.tr",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.com.tw",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.com.ua",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.com.ve",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.com.vn",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.cz",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.de",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.dk",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.ee",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.es",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.fi",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.fr",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.gr",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.hr",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.hu",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.ie",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.in",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.it",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.lt",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.lv",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.nl",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.no",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.pl",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.pt",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.ro",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.rs",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.se",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.si",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoo.sk",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoogroups.co.kr",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoogroups.com.cn",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoogroups.com.sg",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoogroups.com.tw",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoogrupper.dk",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahoogruppi.it",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yahooxtra.co.nz",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "yandex.by",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "yandex.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "yandex.kz",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "yandex.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "yandex.ua",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1:!TLSv1.2 ciphers=high"
+    },
+    {
+        "dest":  "ymail.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "ziza.ru",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "zoho.com",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    },
+    {
+        "dest":  "zoho.eu",
+        "policy":  "verify",
+        "parameters":  "protocols=!SSLv2:!SSLv3:!TLSv1:!TLSv1.1 ciphers=high"
+    }
+]
