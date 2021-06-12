@@ -11,7 +11,7 @@ if ($Install){
         Pause
     } else {
         $VbsContent = @"
-command = `"PowerShell.exe -NoLogo -File `'$($MyInvocation.MyCommand.Definition)`'`"
+command = `"PowerShell.exe -NoLogo -File `"`"$($MyInvocation.MyCommand.Definition)`"`"`"
 set shell = CreateObject("WScript.Shell")
 shell.Run command,0
 "@
@@ -21,17 +21,17 @@ shell.Run command,0
         $Principal = New-ScheduledTaskPrincipal -UserId (Get-CimInstance –ClassName Win32_ComputerSystem | Select-Object -Expand UserName)
         $Trigger = New-ScheduledTaskTrigger -AtLogOn -User (Get-CimInstance –ClassName Win32_ComputerSystem | Select-Object -Expand UserName)
         $SettingsParams = @{
-	        "ExecutionTimeLimit"         = (New-TimeSpan -Minutes 2)
-	        "AllowStartIfOnBatteries"    = $True
-	        "DontStopIfGoingOnBatteries" = $True
-	        "RestartCount"               = 0
+            "ExecutionTimeLimit"         = (New-TimeSpan -Minutes 2)
+            "AllowStartIfOnBatteries"    = $True
+            "DontStopIfGoingOnBatteries" = $True
+            "RestartCount"               = 0
         }
         $Settings = New-ScheduledTaskSettingsSet @SettingsParams
         $TaskParams = @{
-	        "Action"    = $Action
-	        "Principal" = $Principal
-	        "Trigger"   = $Trigger
-	        "Setting"   = $Settings
+            "Action"    = $Action
+            "Principal" = $Principal
+            "Trigger"   = $Trigger
+            "Setting"   = $Settings
         }
         $Task = New-ScheduledTask @TaskParams
         Get-ScheduledTask -TaskName "Thunderbird_StartUp_${env:USERNAME}" -ErrorAction Ignore | Unregister-ScheduledTask -Confirm:$False
