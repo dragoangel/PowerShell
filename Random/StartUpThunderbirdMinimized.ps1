@@ -1,8 +1,54 @@
+param (
+    [Parameter(Mandatory=$false)]
+    [Switch]$Install,
+    [Parameter(Mandatory=$false)]
+    [Switch]$Uninstall
+)
+
+if ($Install){
+    if (-not (Test-Path -Path $MyInvocation.MyCommand.Definition)){
+        Write-Warning "Installation of scheduled job failed. You should run this script directly from Powershell terminal to get it work."
+        Pause
+    } else {
+        $VbsContent = @"
+command = `"PowerShell.exe -NoLogo -File `'$($MyInvocation.MyCommand.Definition)`'`"
+set shell = CreateObject("WScript.Shell")
+shell.Run command,0
+"@
+        $VbsPath = $MyInvocation.MyCommand.Definition -Replace "\.ps1$",".vbs"
+        $VbsContent | Out-File $VbsPath
+        $Action = New-ScheduledTaskAction -Execute “wscript” -Argument "//nologo `"$VbsPath`""
+        $Principal = New-ScheduledTaskPrincipal -UserId (Get-CimInstance –ClassName Win32_ComputerSystem | Select-Object -Expand UserName)
+        $Trigger = New-ScheduledTaskTrigger -AtLogOn -User (Get-CimInstance –ClassName Win32_ComputerSystem | Select-Object -Expand UserName)
+        $SettingsParams = @{
+	        "ExecutionTimeLimit"         = (New-TimeSpan -Minutes 2)
+	        "AllowStartIfOnBatteries"    = $True
+	        "DontStopIfGoingOnBatteries" = $True
+	        "RestartCount"               = 0
+        }
+        $Settings = New-ScheduledTaskSettingsSet @SettingsParams
+        $TaskParams = @{
+	        "Action"    = $Action
+	        "Principal" = $Principal
+	        "Trigger"   = $Trigger
+	        "Setting"   = $Settings
+        }
+        $Task = New-ScheduledTask @TaskParams
+        Get-ScheduledTask -TaskName "Thunderbird_StartUp_${env:USERNAME}" -ErrorAction Ignore | Unregister-ScheduledTask -Confirm:$False
+        $Task | Register-ScheduledTask -TaskName "Thunderbird_StartUp_${env:USERNAME}"
+        Exit 0
+    }
+}
+
+if ($Uninstall){
+    Get-ScheduledTask -TaskName "Thunderbird_StartUp_${env:USERNAME}" -ErrorAction Continue | Unregister-ScheduledTask -Confirm:$False
+    Exit 0
+}
+
 $ErrorActionPreference = "SilentlyContinue"
 $ThunderbirdEML = Get-ItemProperty -Path "Registry::HKEY_CLASSES_ROOT\ThunderbirdEML\shell\open\command"
-if ($ThunderbirdEML.'(default)'.ToLower().Contains("thunderbird.exe")){
-    $PathIndex = $ThunderbirdEML.'(default)'.LastIndexOf("thunderbird.exe")
-    $ThunderbirdExecutable = $ThunderbirdEML.'(default)'.Substring(1,$PathIndex+14)
+if ($ThunderbirdEML.'(default)'.ToLower().Contains("\thunderbird.exe")){
+    $ThunderbirdExecutable = (Split-path -Parent $ThunderbirdEML.'(default)'.Replace('"','')) + "\thunderbird.exe"
     if (-not (Test-Path -Path $ThunderbirdExecutable)){Exit 1}
 } else {
     if (Test-Path -Path "${env:ProgramFiles}\Mozilla Thunderbird\thunderbird.exe"){$ThunderbirdExecutable = "${env:ProgramFiles}\Mozilla Thunderbird\thunderbird.exe"}
@@ -14,7 +60,7 @@ function Get-ProcessState {
     [CmdletBinding()]
     param (
         [Parameter(Mandatory=$true)]
-        [string]$Name
+        [String]$Name
     )
     begin {
         Add-Type -AssemblyName UIAutomationClient
@@ -36,7 +82,7 @@ function Set-WindowStyle {
     [CmdletBinding()]
     param (
         [Parameter(Mandatory=$true)]
-        [string]$Name,
+        [String]$Name,
         [Parameter(Mandatory=$true)]
         [ValidateSet('FORCEMINIMIZE', 'HIDE', 'MAXIMIZE', 'MINIMIZE', 'RESTORE', 
                      'SHOW', 'SHOWDEFAULT', 'SHOWMAXIMIZED', 'SHOWMINIMIZED', 
