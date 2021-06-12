@@ -64,36 +64,8 @@
 		- PowerShell 3.0, because we're using ordered PSObjects and the Resolve-DNSName cmdlet
 
 	VERSION HISTORY:
-		1.0 05/02/2019
-			- Initial Version, based on an old collection of stuff I've had lying around for ages
+		See https://github.com/dstreefkerk/PowerShell/commits/master/Infosec-Related/Invoke-EmailRecon.ps1
 
-        2.0 09/02/2019
-            - Refactored to cut down on the number of DNS queries the script has to make. 55% increase in speed.
-            - Added checks for MTA-STS record
-            - Added visibility around SPF and DKIM modes
-
-        2.1 14/02/2019
-            - Added 'MX (Lowest Preference)' property
-            - Added more MX Provider name resolutions. eg. Barracuda ESS, FirstWave
-            - Added checks for O365/Azure AD federation, and 4 new related properties
-
-        2.2 18/04/2019
-            - Now checking commonly-used federation hostnames and returning federation metadata URL if found
-            - Added more MX Provider name resolutions. eg. Sophos and some smaller Aussie mobs
-
-        2.3 08/05/2019
-            - Added detection for *.eo.outlook.com MX records (Exchange Online)
-
-        2.4 26/06/2019
-            - Refactored to indicate that what we were previously capturing as O365 Tenant GUID was actually the tenant name
-            - Added check to retrieve Azure AD Directory ID via OpenID Connect API
-            - Added Federation Brand Name field to output (we were already collecting it anyway)
-
-        2.5 07/07/2019
-            - Implemented more comprehensive checking and reporting on MTA-STS
-            - Implemented a basic check for DNSSEC existence
-            - Added parameter to show if any MX records exist
-			
 	TODO:
 		- TBA
 #>
@@ -129,9 +101,33 @@ begin {
         }
     }
 
+    # Check if a wildcard SPF record exists (one should)
+    function Check-WildcardSpfRecordExists ([psobject]$DomainData) {
+        $record = $domainData.WILDCARDTXT | Where-Object {$_.Strings -like '*v=spf1*'} -ErrorAction SilentlyContinue
+        
+        if (($record | Measure-Object).Count -gt 1) {
+            return "MULTIPLE SPF RECORDS"
+        } else {
+            ($record -ne $null)
+        }
+    }
+
     # Get the actual SPF record data
     function Get-SpfRecordText ([psobject]$DomainData) {
         $record = $domainData.TXT | Where-Object {$_.Strings -like '*v=spf1*'} -ErrorAction SilentlyContinue
+
+        if ($record -eq $null) { return }
+
+        if (($record[0].Strings | Measure).Count -gt 1) {
+            $record[0].Strings -join ''
+        } else {
+            $record[0].Strings[0]
+        }
+    }
+
+    # Get the actual SPF record data out of the wildcard SPF record
+    function Get-WildcardSpfRecordText ([psobject]$DomainData) {
+        $record = $domainData.WILDCARDTXT | Where-Object {$_.Strings -like '*v=spf1*'} -ErrorAction SilentlyContinue
 
         if ($record -eq $null) { return }
 
@@ -322,9 +318,10 @@ begin {
             '*in.mailcontrol.com' { $determination = "Forcepoint (Formerly Websense)" }
             '*iphmx*' { $determination = "Cisco Email Security (Formerly IronPort Cloud)" }
 			'*.itoncloud.com' { $determination = "ITonCloud (AU)" }
-            '*mail.protection.outlook.com*' { $determination = "Microsoft Exchange Online" }
             '*mailguard*' { $determination = "Mailguard (AU)" }
             '*.mailgun.org' { $determination = "Mailgun" }
+            '*.server-mail.com' { $determination = "Melbourne IT" }
+            '*mail.protection.outlook.com*' { $determination = "Microsoft Exchange Online" }
             '*messagelabs*' { $determination = "Symantec.Cloud" }
             '*.msng.telstra.com.au' { $determination = "Telstra (AU)" }
             '*mxthunder*' { $determination = "SpamHero" }
@@ -556,6 +553,7 @@ process {
             MTASTS = Get-MTASTSDetails -DomainName $domain
             MSOID = Resolve-DnsName "msoid.$($domain)"
             TXT = Resolve-DnsName $domain -Type TXT
+            WILDCARDTXT = Resolve-DnsName "$([guid]::NewGuid().Guid.Replace('-','')).$domain" -Type TXT
             ENTERPRISEREGISTRATION = Resolve-DnsName -Name "enterpriseregistration.$domain" -Type CNAME
             AUTODISCOVER = Resolve-DnsName -Name "autodiscover.$domain" -Type CNAME
             SOA = Resolve-DnsName -Type SOA -Name $domain
@@ -580,6 +578,8 @@ process {
                                         'SPF Record Exists?' = (Check-SpfRecordExists $dataCollection);
                                         'SPF Record' = (Get-SpfRecordText $dataCollection);
                                         'SPF Mechanism (Mode)' = (Determine-SpfRecordMode $dataCollection);
+                                        'Wildcard SPF Record Exists?' = (Check-WildcardSpfRecordExists $dataCollection);
+                                        'Wildcard SPF Record' = (Get-WildcardSpfRecordText $dataCollection);
                                         'DMARC Record Exists?'= (Check-DmarcRecordExists $dataCollection);
                                         'DMARC Record' = (Get-DmarcRecordText $dataCollection);
                                         'DMARC Domain Policy (Mode)' = (Determine-DmarcPolicy $dataCollection);
